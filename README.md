@@ -1,29 +1,47 @@
-# HD – React + Vite Template
+📝 Full Stack Note-Taking Application
 
-A minimal, fast, and opinionated starter template combining **React** with **Vite**, complete with ESLint setup and HMR, designed for building modern web applications efficiently.
+A full-stack note-taking application built with React (JavaScript) for the frontend, Node.js (Express) for the backend, Tailwind CSS for styling, and MongoDB/MySQL/PostgreSQL for the database. The app allows users to securely sign up, log in (via email/OTP or Google), create and delete notes, and manage their account.
 
----
+🚀 Features
 
-##  Features
+Authentication
 
-- **React** powered by **Vite** for blazing-fast performance and instant HMR.
-- 🧹 ESLint integration for code quality and consistency.
-- Supports two official React plugins:
-  - `@vitejs/plugin-react` (uses Babel for fast refresh)
-  - `@vitejs/plugin-react-swc` (uses SWC for fast refresh) :contentReference[oaicite:2]{index=2}
-- `.env` support and sensible default configurations.
-- Lightweight and adaptable for all project sizes.
+Signup with email + OTP verification
 
----
+Google login/signup support
 
-##  Project Structure
+Error handling for invalid inputs, OTP issues, and API failures
 
-```txt
-HD/
-├── src/                # Your React source code
-├── index.html          # HTML template
-├── package.json        # NPM dependencies & scripts
-├── vite.config.js      # Vite configuration file
-├── eslint.config.js    # ESLint configuration
-├── .env                # Environment variables (if any)
-└── .gitignore          # Excluded files/folders
+Notes Management
+
+Create new notes
+
+Delete notes
+
+User Dashboard
+
+Personalized welcome page after login/signup
+
+Display user details
+
+Security
+
+JWT-based authentication for notes operations
+
+UI/UX
+
+Responsive design with Tailwind CSS
+
+Matches provided UI design closely
+
+🛠️ Tech Stack
+
+Frontend: React (JavaScript), Tailwind CSS
+
+Backend: Node.js, Express
+
+Database: MongoDB / MySQL / PostgreSQL
+
+Auth: JWT, Google OAuth, OTP (email)
+
+Version Control: Git & GitHub
