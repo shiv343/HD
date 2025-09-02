@@ -1,12 +1,29 @@
-# React + Vite
+# HD – React + Vite Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, fast, and opinionated starter template combining **React** with **Vite**, complete with ESLint setup and HMR, designed for building modern web applications efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- **React** powered by **Vite** for blazing-fast performance and instant HMR.
+- 🧹 ESLint integration for code quality and consistency.
+- Supports two official React plugins:
+  - `@vitejs/plugin-react` (uses Babel for fast refresh)
+  - `@vitejs/plugin-react-swc` (uses SWC for fast refresh) :contentReference[oaicite:2]{index=2}
+- `.env` support and sensible default configurations.
+- Lightweight and adaptable for all project sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Project Structure
+
+```txt
+HD/
+├── src/                # Your React source code
+├── index.html          # HTML template
+├── package.json        # NPM dependencies & scripts
+├── vite.config.js      # Vite configuration file
+├── eslint.config.js    # ESLint configuration
+├── .env                # Environment variables (if any)
+└── .gitignore          # Excluded files/folders
