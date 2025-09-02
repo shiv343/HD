@@ -45,3 +45,6 @@ Database: MongoDB / MySQL / PostgreSQL
 Auth: JWT, Google OAuth, OTP (email)
 
 Version Control: Git & GitHub
+<img width="783" height="800" alt="image" src="https://github.com/user-attachments/assets/d179e5d7-e27a-4b6c-98fc-dd8ea6fc1c4e" />
+
+<img width="1919" height="912" alt="Screenshot 2025-09-02 154631" src="https://github.com/user-attachments/assets/6b75559b-31e3-476b-8467-559e4cfd88fc" />
